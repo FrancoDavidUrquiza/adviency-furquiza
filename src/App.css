@@ -1,0 +1,14 @@
+.App {
+  width: 70vw;
+  min-height: 60vh;
+  font-family: sans-serif;
+  text-align: center;
+  border: solid 1px red;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: green;
+}
