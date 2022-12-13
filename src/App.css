@@ -1,14 +1,38 @@
 .App {
-  width: 70vw;
-  min-height: 60vh;
+  width: 100vw;
+  min-height: 100vh;
   font-family: sans-serif;
   text-align: center;
-  border: solid 1px red;
+  font-family: 'Mountains of Christmas', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1482517967863-00e15c9b44be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  
+}
+.title-gift{
+  font-weight: 900;
+  font-size: 100px;
+}
+
+
+
+.btn-remove-all{
+  width: 50%;
+  margin-left: 15px;
+  margin-top: 50px;
+  font-family:'Mountains of Christmas', sans-serif; 
+  font-size: 25px;
+  color: red;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background: green;
 }
+
+
+
+

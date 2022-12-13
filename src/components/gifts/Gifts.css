@@ -1,0 +1,30 @@
+.container-gift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 375px;
+    margin: 25px;
+    padding: 10px;
+    border: 1px solid white;
+    
+  }
+  .container-gift-opacity{
+    opacity: 0.3;
+  }
+  .container-gift-ul{
+    width: 100%;
+  }
+  .img-gift{
+    width: 80px;
+    height: 100px;
+  }
+  .list-gift{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight:lighter;
+    font-size: 25px;
+    color: white;
+    list-style: none;
+  }
