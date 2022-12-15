@@ -5,22 +5,6 @@ import React from "react";
 
 
 export default function GiftsForm(props) {
-    
-    // const [formData, setFormData] = useState(
-    //     {gift:'',img:'',qty:0}
-    // )
-    
-   
-    
-    // const handleFormChange = (event) =>{
-    //     setFormData(prevState =>{
-    //         return{
-    //             ...prevState,
-    //             [event.target.name]:event.target.value
-    //         }
-    //     })
-    // }
-
     return(
         <section>
             <form action=""
@@ -35,22 +19,25 @@ export default function GiftsForm(props) {
                             className="input-gift"
                             name="gift"
                             placeholder='Que vas a regalar?'
-                            onChange={props.handleChange}
-                            // onChange={props.handleFormChange}
+                            onChange={props.handleFormChange}
                             />
+                    <input  type="text" 
+                            className="input-gift"
+                            name="name"
+                            placeholder='Aquien le vas a regalar?'
+                            onChange={props.handleFormChange}
+                            />        
                     <input type="text" 
                            className='input-gift'
                            name='img'
                            placeholder='http://imagen.jpg'
-                           onChange={props.handleimg}
-                        // onChange={props.handleFormChange} 
+                           onChange={props.handleFormChange} 
                     />        
                     <input type="number"
                             className='input-gift'
                             name='qty'
                             placeholder='Cantidad'
-                            onChange={props.handleQty}
-                            // onChange={props.handleFormChange}
+                            onChange={props.handleFormChange}
                     />        
                 </div>
 
